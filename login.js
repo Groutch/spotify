@@ -25,7 +25,13 @@ $(document).ready(function () {
                 if (jsondata.Users[idxuser].password == infos[1].value) {
                     localStorage.setItem("colorUser", jsondata.Users[idxuser].color);
                     localStorage.setItem("nameUser", jsondata.Users[idxuser].username);
+                }else{
+                    alert("NEIN NEIN NEIN !!");
+                    return false;
                 }
+            }else{
+                alert("NEIN NEIN NEIN !!");
+                return false;
             }
         }
     }
