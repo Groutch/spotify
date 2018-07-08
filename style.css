@@ -1,0 +1,143 @@
+
+.img-brand-sp{
+    height:40px;
+    fill:white;
+}
+
+.navbar-collapse{
+    padding-top: 20px;
+}
+
+.navbar-default{
+    height: 80px;
+	background-color:#37b039;
+	border-color:#784444;
+	
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-default-one{
+    background-image: -webkit-linear-gradient(#8a2089, #8c177d 60%, #95139c );
+}
+
+.imgsmartphone{
+    transform: rotate(45deg);
+}
+
+.navbar-right a:hover{
+    background-image: -webkit-linear-gradient(#8a2089, #8c177d 60%, #95139c ); 
+    color: #9BF0E1;
+}
+
+.arrowdown{
+    width:40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    fill: skyblue;
+}
+
+.arrowdown:hover{
+    fill:#6DA89E;
+    width:45px;
+    height: 45px;
+}
+
+.sosimple{
+    background-image: -webkit-linear-gradient(50deg,#ff4169 0,#7c26f8 100%);
+}
+
+#my_carousel{
+    margin-top: -10px;
+	min-height: 500px;
+}
+
+.my_carousel_default{
+    background-image: -webkit-linear-gradient(50deg,#ff4169 0,#7c26f8 100%);
+}
+
+.my_carousel_machin{
+    
+    background-image: -webkit-linear-gradient(50deg,rgb(232, 8, 8) 0,#7c26f8 100%);
+}
+
+.my_carousel_truc{
+    
+    background-image: -webkit-linear-gradient(50deg,rgb(141, 192, 243) 0,#7c26f8 100%);
+}
+
+.my_carousel_bidule{
+    
+    background-image: -webkit-linear-gradient(50deg,rgb(72, 216, 50) 0,#7c26f8 100%);
+}
+
+#profit{
+	text-align: center;
+	margin-top: 150px;
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+#profitez{
+	border-radius: 20px;
+	background-color: #8A2BE2;
+	margin-left: 480px;
+	margin-right: 480px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	margin-top: 40px;
+	color: white;
+	font-size: 20px;
+}
+
+#savoir{
+	color: #ADD8E6;
+	text-decoration: underline;
+}
+
+h1{
+	text-align: center;
+}
+
+data-ga-action{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+h2{
+	color:#8A2BE2;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+h3{
+	color:#8A2BE2;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+.console{
+	background-color: black;
+	opacity: 0.85;
+	padding-top: 60px;
+	padding-bottom:120px;
+}
+
+#compte{
+	color: white;
+	padding-bottom: : 100px;
+}
+
+.alldevices{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+	color: white;
+	padding-bottom: 10px;
+
+}
