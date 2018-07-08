@@ -22,7 +22,7 @@
 }
 
 .imgsmartphone{
-    transform: rotate(45deg);
+    transform: rotate(40deg);
 }
 
 .navbar-right a:hover{
@@ -44,8 +44,23 @@
     height: 45px;
 }
 
-.sosimple{
+.sosimple_default{
     background-image: -webkit-linear-gradient(50deg,#ff4169 0,#7c26f8 100%);
+}
+
+.sosimple_machin{
+    
+    background-image: -webkit-linear-gradient(50deg,rgb(232, 8, 8) 0,#7c26f8 100%);
+}
+
+.sosimpe_truc{
+    
+    background-image: -webkit-linear-gradient(50deg,rgb(141, 192, 243) 0,#7c26f8 100%);
+}
+
+.sosimple_bidule{
+    
+    background-image: -webkit-linear-gradient(50deg,rgb(72, 216, 50) 0,#7c26f8 100%);
 }
 
 #my_carousel{
