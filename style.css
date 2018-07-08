@@ -2,6 +2,7 @@
 .img-brand-sp{
     height:40px;
     fill:white;
+    margin-left: -40px;
 }
 
 .navbar-collapse{
@@ -10,16 +11,12 @@
 
 .navbar-default{
     height: 80px;
-	background-color:#37b039;
-	border-color:#784444;
-	
+	background-color:rgba(0,0,0,0.3);
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7) );
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
 
-.navbar-default-one{
-    background-image: -webkit-linear-gradient(#8a2089, #8c177d 60%, #95139c );
-}
 
 .imgsmartphone{
     transform: rotate(40deg);
@@ -73,17 +70,28 @@
 }
 
 .my_carousel_machin{
-    
     background-image: -webkit-linear-gradient(50deg,rgb(232, 8, 8) 0,#7c26f8 100%);
 }
 
 .my_carousel_truc{
-    
     background-image: -webkit-linear-gradient(50deg,rgb(141, 192, 243) 0,#7c26f8 100%);
 }
 
 .my_carousel_bidule{
-    
+    background-image: -webkit-linear-gradient(50deg,rgb(72, 216, 50) 0,#7c26f8 100%);
+}
+
+.musicforward_default{
+    background-image: -webkit-linear-gradient(50deg,#ff4169 0,#7c26f8 100%);
+}
+
+.musicforward_machin{
+    background-image: -webkit-linear-gradient(50deg,rgb(232, 8, 8) 0,#7c26f8 100%);
+}
+.musicforward_truc{
+    background-image: -webkit-linear-gradient(50deg,rgb(141, 192, 243) 0,#7c26f8 100%);
+}
+.musicforward_bidule{
     background-image: -webkit-linear-gradient(50deg,rgb(72, 216, 50) 0,#7c26f8 100%);
 }
 
@@ -155,4 +163,20 @@ h3{
 	color: white;
 	padding-bottom: 10px;
 
+}
+
+.footernav{
+    background-color:black;
+}
+
+footer svg{
+    fill:white;
+}
+
+span{
+    color:black;
+}
+
+#compte span{
+    color:white;
 }

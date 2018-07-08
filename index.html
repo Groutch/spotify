@@ -84,27 +84,29 @@
 
     <div id="fb-root"></div>
     <header>
-        <nav role="navigation" class="navbar navbar-default navbar-default-one d-flex align-items-center" id="navrecolor">
-            <div class="navbar-header">
-                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+        <nav role="navigation" class="navbar navbar-default navbar-default-one navbar-fixed-top" id="navrecolor">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            </div>
+                </div>
 
-            <a href="#" class="nav navbar-nav navbar-left navbar-brand"><svg class="img-brand-sp"><use xlink:href="#spotify-logo" /></svg></a>
-            <div id="navbarCollapse" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                </ul>
-                <ul class="nav navbar-nav navbar-right ">
-                    <li><a class="nav-link" href="#">Premium</a></li>
-                    <li><a class="nav-link" href="#">Aide</a></li>
-                    <li><a class="nav-link" href="#">Télécharger</a></li>
-                    <li><a class="nav-link" href="#"> S'incrire</a></li>
-                    <li><a class="nav-link" href="login.html">Se connecter</a></li>
-                </ul>
+                <a href="#" class="nav navbar-nav navbar-left navbar-brand"><svg class="img-brand-sp"><use xlink:href="#spotify-logo" /></svg></a>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right ">
+                        <li><a class="nav-link" href="#">Premium</a></li>
+                        <li><a class="nav-link" href="#">Aide</a></li>
+                        <li><a class="nav-link" href="#">Télécharger</a></li>
+                        <li><a class="nav-link" href="#"> S'incrire</a></li>
+                        <li><a class="nav-link" href="login.html">Se connecter</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -267,7 +269,7 @@
             </div>
 
             <div class="col-md-6">
-                <img class="imgsmartphone" src="iphone.png">
+                <img class="imgsmartphone" data-original="//d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/iphone-1a.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC">
             </div>
         </div>
     </div>
@@ -318,9 +320,9 @@
 
     </div>
 
-    <div>
+    <div id="musicforward" class="musicforward_default">
         <div data-original="//d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/bg-albums.png"></div>
-        <div>
+        <div class="container">
             <div>
                 <div>
                     <div>
@@ -399,9 +401,9 @@
 
 
 
-    <footer role="contentinfo">
+    <footer role="contentinfo" class="footernav">
         <div>
-            <nav class="">
+            <nav class="container">
                 <div class="col-md-8 bg-black">
                     <div>
                         <a href="/fr/">Spotify</a>
