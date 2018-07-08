@@ -18,8 +18,8 @@
 }
 
 
-.imgsmartphone{
-    transform: rotate(40deg);
+#sosimple .imgsmartphone{
+    transform: rotate(30deg);
 }
 
 .navbar-right a:hover{
